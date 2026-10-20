@@ -78,15 +78,15 @@ kluuuzy@nowhere:~$ tree ~/focus
 | dir | what's inside |
 |:--|:--|
 | `wazuh-home-lab/` | SIEM deployment with Linux + Windows endpoints — log monitoring, File Integrity Monitoring (FIM), Security Configuration Assessment (SCA) |
-| [`ThreatLens/`](https://github.com/Kluuuz/ThreatLens) | Vulnerability assessment workflow with documented security findings |
-| [`LogSentry/`](https://github.com/Kluuuz/LogSentry) | Log monitoring & detection — parses security logs and flags suspicious activity |
+| [`ThreatLens/`](https://github.com/Kluuuz/ThreatLens) | Python threat-intel tool — scores URL/IP reputation via the VirusTotal API, flags phishing indicators & malicious IOCs |
+| [`LogSentry/`](https://github.com/Kluuuz/LogSentry) | Python script that automates reading & analyzing logs to surface suspicious activity |
 | `hardened-plex-server/` | Linux media server, locked down — firewall rules, SSH protection, Fail2Ban |
 | `vulnerable-php-app/` | PHP/MySQL web app built with a database backend, then security-tested |
 | `packet-tracer-lab/` | Network topology design — switching, routing, connectivity |
 | `openclaw-ollama-assistant/` | Local cybersecurity AI assistant running on a self-hosted LLM |
-| [`Pixie/`](https://github.com/Kluuuz/Pixie) | Lightweight local music player in Flutter/Dart |
+| [`Pixie/`](https://github.com/Kluuuz/Pixie) | Retro 8-bit local MP3 player in Flutter/Dart — scans device storage, plays offline, no accounts or streaming |
 
-> 📖 **`~/writeups`** — I document the boxes I break. CTF walkthroughs & methodology notes live in [`THM-Writeup/`](https://github.com/Kluuuz/THM-Writeup).
+> 📖 **`~/writeups`** — I document the boxes I break. Per-room TryHackMe walkthroughs, with the tools & methodology behind each solve, live in [`THM-Writeup/`](https://github.com/Kluuuz/THM-Writeup).
 
 ## `/etc/certs`
 
