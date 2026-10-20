@@ -78,12 +78,15 @@ kluuuzy@nowhere:~$ tree ~/focus
 | dir | what's inside |
 |:--|:--|
 | `wazuh-home-lab/` | SIEM deployment with Linux + Windows endpoints — log monitoring, File Integrity Monitoring (FIM), Security Configuration Assessment (SCA) |
-| `vuln-assessment-tool/` | Vulnerability assessment workflow with documented security findings |
+| [`ThreatLens/`](https://github.com/Kluuuz/ThreatLens) | Vulnerability assessment workflow with documented security findings |
+| [`LogSentry/`](https://github.com/Kluuuz/LogSentry) | Log monitoring & detection — parses security logs and flags suspicious activity |
 | `hardened-plex-server/` | Linux media server, locked down — firewall rules, SSH protection, Fail2Ban |
 | `vulnerable-php-app/` | PHP/MySQL web app built with a database backend, then security-tested |
 | `packet-tracer-lab/` | Network topology design — switching, routing, connectivity |
 | `openclaw-ollama-assistant/` | Local cybersecurity AI assistant running on a self-hosted LLM |
-| `flutter-mp3-player/` | Lightweight local music player in Flutter/Dart |
+| [`Pixie/`](https://github.com/Kluuuz/Pixie) | Lightweight local music player in Flutter/Dart |
+
+> 📖 **`~/writeups`** — I document the boxes I break. CTF walkthroughs & methodology notes live in [`THM-Writeup/`](https://github.com/Kluuuz/THM-Writeup).
 
 ## `/etc/certs`
 
