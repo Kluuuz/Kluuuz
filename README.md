@@ -86,7 +86,28 @@ kluuuzy@nowhere:~$ tree ~/focus
 | `openclaw-ollama-assistant/` | Local cybersecurity AI assistant running on a self-hosted LLM |
 | [`Pixie/`](https://github.com/Kluuuz/Pixie) | Retro 8-bit local MP3 player in Flutter/Dart — scans device storage, plays offline, no accounts or streaming |
 
-> 📖 **`~/writeups`** — I document the boxes I break. Per-room TryHackMe walkthroughs, with the tools & methodology behind each solve, live in [`THM-Writeup/`](https://github.com/Kluuuz/THM-Writeup).
+## `~/writeups`
+
+```console
+kluuuzy@nowhere:~$ ls -1 ~/writeups   # I document the boxes I break
+```
+
+<p align="center">
+  <a href="https://github.com/Kluuuz/THM-Writeup/tree/main/Agent%20T"><img src="https://img.shields.io/badge/Agent_T-2D0B4E?style=flat-square&labelColor=7B2CBF" alt="Agent T writeup" /></a>
+  <a href="https://github.com/Kluuuz/THM-Writeup/tree/main/Foolsmate"><img src="https://img.shields.io/badge/Foolsmate-2D0B4E?style=flat-square&labelColor=7B2CBF" alt="Foolsmate writeup" /></a>
+  <a href="https://github.com/Kluuuz/THM-Writeup/tree/main/Gaming%20Server"><img src="https://img.shields.io/badge/Gaming_Server-2D0B4E?style=flat-square&labelColor=7B2CBF" alt="Gaming Server writeup" /></a>
+  <a href="https://github.com/Kluuuz/THM-Writeup/tree/main/Oracle_9"><img src="https://img.shields.io/badge/Oracle_9-2D0B4E?style=flat-square&labelColor=7B2CBF" alt="Oracle 9 writeup" /></a>
+  <a href="https://github.com/Kluuuz/THM-Writeup/tree/main/Publisher"><img src="https://img.shields.io/badge/Publisher-2D0B4E?style=flat-square&labelColor=7B2CBF" alt="Publisher writeup" /></a>
+  <a href="https://github.com/Kluuuz/THM-Writeup/tree/main/Silver_Platter"><img src="https://img.shields.io/badge/Silver_Platter-2D0B4E?style=flat-square&labelColor=7B2CBF" alt="Silver Platter writeup" /></a>
+  <a href="https://github.com/Kluuuz/THM-Writeup/tree/main/Sticker%20Shop"><img src="https://img.shields.io/badge/Sticker_Shop-2D0B4E?style=flat-square&labelColor=7B2CBF" alt="Sticker Shop writeup" /></a>
+  <a href="https://github.com/Kluuuz/THM-Writeup/tree/main/Whyhackme"><img src="https://img.shields.io/badge/Whyhackme-2D0B4E?style=flat-square&labelColor=7B2CBF" alt="Whyhackme writeup" /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Kluuuz/THM-Writeup"><img src="https://img.shields.io/badge/full_archive-THM--Writeup-7B2CBF?style=for-the-badge&logo=tryhackme&logoColor=E0AAFF&labelColor=0D0221" alt="all writeups" /></a>
+</p>
+
+> Per-room TryHackMe walkthroughs — each folder carries the full solve path, the tooling, and the methodology behind it.
 
 ## `/etc/certs`
 
