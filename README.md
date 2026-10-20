@@ -137,7 +137,7 @@ COURSERA   Network Security
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Kluuuz&show_icons=true&count_private=true&hide_border=true&bg_color=0D0221&title_color=F2A8FF&text_color=E0AAFF&icon_color=C77DFF&ring_color=C77DFF" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Kluuuz&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=0D0221&title_color=F2A8FF&text_color=E0AAFF&icon_color=C77DFF&ring_color=C77DFF" alt="GitHub stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kluuuz&layout=compact&hide_border=true&bg_color=0D0221&title_color=F2A8FF&text_color=E0AAFF" alt="top languages" />
 </p>
 
