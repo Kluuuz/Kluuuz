@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-labelledby="title">
+  <title id="title">Kluuuzy — departures: nowhere</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0216"/>
+      <stop offset="0.6" stop-color="#170638"/>
+      <stop offset="1" stop-color="#06010d"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a5ce6"/>
+      <stop offset="1" stop-color="#3b1675"/>
+    </linearGradient>
+    <linearGradient id="dusk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3f37b0"/>
+      <stop offset="0.45" stop-color="#8f5ae0"/>
+      <stop offset="0.72" stop-color="#e48ad6"/>
+      <stop offset="1" stop-color="#4a2178"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c0840"/>
+      <stop offset="1" stop-color="#05010b"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#13072a"/>
+      <stop offset="1" stop-color="#090313"/>
+    </linearGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.45" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.65"/>
+    </radialGradient>
+    <filter id="glow" filterUnits="userSpaceOnUse" x="0" y="0" width="1200" height="400">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="haze" filterUnits="userSpaceOnUse" x="0" y="0" width="1200" height="400">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1.5" fill="#000" opacity="0.22"/>
+    </pattern>
+    <style>
+      .mono{font-family:'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono','Courier New',monospace}
+      .cjk{font-family:'Noto Sans CJK JP','Hiragino Sans','Yu Gothic','Meiryo','MS Gothic',sans-serif}
+      .flicker{animation:flicker 7s infinite}
+      @keyframes flicker{0%,89%,100%{opacity:1}90%{opacity:.45}91%{opacity:1}93%{opacity:.7}94%{opacity:1}}
+      .blink{animation:blink 1.1s steps(1) infinite}
+      @keyframes blink{50%{fill-opacity:0}}
+      .pulse{animation:pulse 3.2s ease-in-out infinite}
+      @keyframes pulse{0%,100%{opacity:.9}50%{opacity:.4}}
+    </style>
+  </defs>
+
+  <!-- backdrop -->
+  <rect width="1200" height="400" fill="url(#bg)"/>
+
+  <!-- skylight -->
+  <polygon points="330,0 870,0 760,88 440,88" fill="url(#sky)" opacity="0.9"/>
+  <g stroke="#2b0d58" stroke-width="2" opacity="0.7">
+    <line x1="352.5" y1="18" x2="847.5" y2="18"/>
+    <line x1="375" y1="36" x2="825" y2="36"/>
+    <line x1="397.5" y1="54" x2="802.5" y2="54"/>
+    <line x1="420" y1="72" x2="780" y2="72"/>
+    <line x1="420" y1="0" x2="493.3" y2="88"/>
+    <line x1="510" y1="0" x2="546.7" y2="88"/>
+    <line x1="600" y1="0" x2="600" y2="88"/>
+    <line x1="690" y1="0" x2="653.3" y2="88"/>
+    <line x1="780" y1="0" x2="706.7" y2="88"/>
+  </g>
+
+  <!-- ceiling neon -->
+  <g stroke="#ff86ea" stroke-width="3" stroke-linecap="round" filter="url(#glow)">
+    <line x1="330" y1="0" x2="440" y2="88"/>
+    <line x1="870" y1="0" x2="760" y2="88"/>
+    <line x1="170" y1="0" x2="372" y2="135"/>
+    <line x1="1030" y1="0" x2="828" y2="135"/>
+  </g>
+  <line x1="300" y1="98" x2="900" y2="98" stroke="#ff9cf2" stroke-width="4" stroke-linecap="round" filter="url(#glow)"/>
+  <g stroke="#6b4a9a" stroke-width="2">
+    <line x1="420" y1="100" x2="420" y2="110"/>
+    <line x1="780" y1="100" x2="780" y2="110"/>
+  </g>
+
+  <!-- side windows -->
+  <g>
+    <rect x="24" y="150" width="196" height="112" fill="url(#dusk)" opacity="0.5"/>
+    <rect x="980" y="150" width="196" height="112" fill="url(#dusk)" opacity="0.5"/>
+    <g stroke="#12052a" stroke-width="3">
+      <line x1="73" y1="150" x2="73" y2="262"/>
+      <line x1="122" y1="150" x2="122" y2="262"/>
+      <line x1="171" y1="150" x2="171" y2="262"/>
+      <line x1="24" y1="187" x2="220" y2="187"/>
+      <line x1="24" y1="224" x2="220" y2="224"/>
+      <line x1="1029" y1="150" x2="1029" y2="262"/>
+      <line x1="1078" y1="150" x2="1078" y2="262"/>
+      <line x1="1127" y1="150" x2="1127" y2="262"/>
+      <line x1="980" y1="187" x2="1176" y2="187"/>
+      <line x1="980" y1="224" x2="1176" y2="224"/>
+    </g>
+    <rect x="24" y="150" width="196" height="112" fill="none" stroke="#12052a" stroke-width="4"/>
+    <rect x="980" y="150" width="196" height="112" fill="none" stroke="#12052a" stroke-width="4"/>
+  </g>
+
+  <!-- left wall: framed artwork -->
+  <rect x="226" y="140" width="128" height="182" fill="url(#panel)" opacity="0.9"/>
+  <rect x="252" y="162" width="76" height="54" fill="#d9c4ff" fill-opacity="0.2" stroke="#8a6ab8" stroke-width="2"/>
+  <path d="M264 202 L284 184 L294 194 L313 174 L305 199 L291 192 Z" fill="#0c0418"/>
+  <rect x="258" y="226" width="26" height="32" fill="#d9c4ff" fill-opacity="0.12" stroke="#5b3a8a" stroke-width="1"/>
+
+  <!-- right wall: 後世 + gate tag -->
+  <rect x="846" y="140" width="128" height="182" fill="url(#panel)" opacity="0.9"/>
+  <text x="910" y="204" text-anchor="middle" class="cjk" font-size="36" fill="#ff8ad8" filter="url(#glow)">後世</text>
+  <rect x="878" y="226" width="64" height="22" rx="2" fill="#0b0418" stroke="#4a2380"/>
+  <polygon points="889,232 897,237 889,242" fill="#ff7be5"/>
+  <text x="903" y="242" class="mono" font-size="13" fill="#ff7be5">E59</text>
+
+  <!-- back window, dusk -->
+  <rect x="430" y="262" width="340" height="60" fill="url(#dusk)" opacity="0.85"/>
+  <path d="M430 304 L480 294 L530 299 L590 289 L650 297 L710 291 L770 299 L770 322 L430 322 Z" fill="#2a1250" opacity="0.75"/>
+  <g stroke="#12052a" stroke-width="2.5">
+    <line x1="472.5" y1="262" x2="472.5" y2="322"/>
+    <line x1="515" y1="262" x2="515" y2="322"/>
+    <line x1="557.5" y1="262" x2="557.5" y2="322"/>
+    <line x1="600" y1="262" x2="600" y2="322"/>
+    <line x1="642.5" y1="262" x2="642.5" y2="322"/>
+    <line x1="685" y1="262" x2="685" y2="322"/>
+    <line x1="727.5" y1="262" x2="727.5" y2="322"/>
+    <line x1="430" y1="282" x2="770" y2="282"/>
+    <line x1="430" y1="302" x2="770" y2="302"/>
+  </g>
+
+  <!-- the sign -->
+  <rect x="360" y="110" width="480" height="148" fill="none" stroke="#b45cff" stroke-width="12" filter="url(#haze)" opacity="0.6"/>
+  <rect x="360" y="110" width="480" height="148" rx="3" fill="#0b0418" stroke="#b07cff" stroke-width="1.5"/>
+  <text x="600" y="190" text-anchor="middle" class="mono flicker" font-size="66" font-weight="700" letter-spacing="2" fill="#f2a8ff" filter="url(#glow)">Kluuuzy</text>
+  <line x1="380" y1="212" x2="820" y2="212" stroke="#3d1f6b" stroke-width="1.5"/>
+  <text x="384" y="243" class="mono" font-size="20" fill="#e9b6ff">↓</text>
+  <rect x="408" y="227" width="18" height="18" fill="none" stroke="#e9b6ff" stroke-width="1.5"/>
+  <line x1="411" y1="242" x2="423" y2="230" stroke="#e9b6ff" stroke-width="1.5"/>
+  <text x="694" y="242" text-anchor="end" class="mono" font-size="14" letter-spacing="1" fill="#c9a0f0">OFFSEC · SOC · CTF</text>
+  <text x="747" y="243" text-anchor="end" class="mono" font-size="20" fill="#f2a8ff">E59</text>
+  <text x="788" y="242" text-anchor="end" class="mono" font-size="11" fill="#c9a0f0">Gates</text>
+  <rect x="796" y="227" width="18" height="18" fill="none" stroke="#e9b6ff" stroke-width="1.5"/>
+  <polyline points="799,242 804,242 810,232 813,232" fill="none" stroke="#e9b6ff" stroke-width="1.5"/>
+
+  <!-- floor + wall neon -->
+  <rect x="0" y="322" width="1200" height="78" fill="url(#floor)"/>
+  <g stroke="#f07cff" stroke-width="3" stroke-linecap="round" filter="url(#glow)">
+    <line x1="430" y1="322" x2="0" y2="380"/>
+    <line x1="770" y1="322" x2="1200" y2="380"/>
+  </g>
+
+  <!-- escalators -->
+  <polygon points="520,322 592,322 578,400 452,400" fill="#10041f"/>
+  <polygon points="608,322 680,322 748,400 622,400" fill="#10041f"/>
+  <polygon points="592,322 608,322 622,400 578,400" fill="#7b3fc4" opacity="0.55"/>
+  <g stroke="#2c1452" stroke-width="1.5">
+    <line x1="511.3" y1="332" x2="590.2" y2="332"/>
+    <line x1="500.8" y1="344" x2="588.1" y2="344"/>
+    <line x1="488.6" y1="358" x2="585.5" y2="358"/>
+    <line x1="474.7" y1="374" x2="582.7" y2="374"/>
+    <line x1="459" y1="392" x2="579.4" y2="392"/>
+    <line x1="609.8" y1="332" x2="688.7" y2="332"/>
+    <line x1="611.9" y1="344" x2="699.2" y2="344"/>
+    <line x1="614.5" y1="358" x2="711.4" y2="358"/>
+    <line x1="617.3" y1="374" x2="725.3" y2="374"/>
+    <line x1="620.6" y1="392" x2="741" y2="392"/>
+  </g>
+  <g stroke="#d48cff" stroke-width="2" stroke-linecap="round" filter="url(#glow)">
+    <line x1="520" y1="322" x2="452" y2="400"/>
+    <line x1="592" y1="322" x2="578" y2="400"/>
+    <line x1="608" y1="322" x2="622" y2="400"/>
+    <line x1="680" y1="322" x2="748" y2="400"/>
+  </g>
+
+  <!-- corner HUD -->
+  <polygon points="24,21 31,25.5 24,30" fill="#8a6ab8"/>
+  <text x="38" y="30" class="mono" font-size="12" letter-spacing="3" fill="#8a6ab8">DEPARTURES</text>
+  <text x="1176" y="30" text-anchor="end" class="mono" font-size="12" letter-spacing="3" fill="#8a6ab8">TERMINAL E</text>
+  <text x="24" y="394" class="mono" font-size="13" fill="#b98cf0">kluuuzy@nowhere<tspan fill="#7a5aa8">:</tspan><tspan fill="#ff86ea">~</tspan><tspan fill="#7a5aa8">$ </tspan>./depart --gate E59 <tspan class="blink" fill="#f2a8ff">_</tspan></text>
+  <text x="1176" y="394" text-anchor="end" class="mono pulse" font-size="13" letter-spacing="2" fill="#c9a0f0">NOW BOARDING · GATE E59</text>
+
+  <!-- CRT finish -->
+  <rect width="1200" height="400" fill="url(#scan)"/>
+  <rect width="1200" height="400" fill="url(#vignette)"/>
+</svg>
