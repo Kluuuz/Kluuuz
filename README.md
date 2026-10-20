@@ -12,7 +12,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/earl-ledesma"><img src="https://img.shields.io/badge/LinkedIn-earl--ledesma-7B2CBF?style=for-the-badge&logo=linkedin&logoColor=E0AAFF&labelColor=0D0221" alt="LinkedIn" /></a>
   <a href="https://tryhackme.com/p/Kluuutzy"><img src="https://img.shields.io/badge/TryHackMe-Kluuutzy-7B2CBF?style=for-the-badge&labelColor=0D0221" alt="TryHackMe" /></a>
-  <img src="https://komarev.com/ghpvc/?username=Kluuuzy&label=visitors&color=7B2CBF&style=for-the-badge" alt="profile views" />
+  <img src="https://komarev.com/ghpvc/?username=Kluuuz&label=visitors&color=7B2CBF&style=for-the-badge" alt="profile views" />
 </p>
 
 ## `~/whoami`
@@ -106,11 +106,11 @@ COURSERA   Network Security
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Kluuuzy&hide_border=true&background=0D0221&stroke=7B2CBF&ring=C77DFF&fire=FF7BE5&currStreakNum=F2D7FF&sideNums=F2D7FF&currStreakLabel=E0AAFF&sideLabels=C9A0F0&dates=8E6BB8" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com?user=Kluuuz&hide_border=true&background=0D0221&stroke=7B2CBF&ring=C77DFF&fire=FF7BE5&currStreakNum=F2D7FF&sideNums=F2D7FF&currStreakLabel=E0AAFF&sideLabels=C9A0F0&dates=8E6BB8" alt="GitHub streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kluuuzy&bg_color=0D0221&color=E0AAFF&line=C77DFF&point=FF7BE5&area=true&area_color=7B2CBF&title_color=F2A8FF&hide_border=true&custom_title=git%20log%20--graph" width="100%" alt="contribution graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kluuuz&bg_color=0D0221&color=E0AAFF&line=C77DFF&point=FF7BE5&area=true&area_color=7B2CBF&title_color=F2A8FF&hide_border=true&custom_title=git%20log%20--graph" width="100%" alt="contribution graph" />
 </p>
 
 ```console
